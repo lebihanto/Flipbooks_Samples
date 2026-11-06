@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,4 +131,138 @@
     </div>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Flipbook Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #0d1117;
+            color: #f0f6fc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p.subtitle {
+            color: #8b949e;
+            font-size: 1.1rem;
+        }
+
+        .category-title {
+            font-size: 1.8rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 10px;
+            color: #58a6ff;
+        }
+
+        /* Grilla de tarjetas para las muestras */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .sample-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sample-card:hover {
+            transform: translateY(-5px);
+            border-color: #58a6ff;
+        }
+
+        .sample-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #000;
+        }
+
+        .sample-info {
+            padding: 16px;
+            text-align: center;
+        }
+
+        .sample-info h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Interactive Samples</h1>
+            <p class="subtitle">Select a category to explore our digital flipbooks</p>
+        </header>
+
+        <!-- SECCIÓN: WEDDINGS & EVENTS -->
+        <h2 class="category-title">Weddings & Events</h2>
+        <div class="grid">
+            
+            <!-- Muestra 1: Rayavadee -->
+            <a href="./Weddings/Rayavadee/" class="sample-card">
+                <img src="./Weddings/Rayavadee/files/shot.png" alt="Rayavadee Sample">
+                <div class="sample-info">
+                    <h3>Rayavadee Resort</h3>
+                </div>
+            </a>
+
+            <!-- Muestra 2: xx (Próxima muestra) -->
+            <a href="./Weddings/xx/" class="sample-card">
+                <img src="./Weddings/xx/files/shot.png" alt="Sample XX">
+                <div class="sample-info">
+                    <h3>Wedding Dossier XX</h3>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- SECCIÓN: BUSINESS & REAL ESTATE -->
+        <h2 class="category-title">Real Estate & Corporate</h2>
+        <div class="grid">
+            
+            <!-- Muestra de negocio -->
+            <a href="./business/sample-company/" class="sample-card">
+                <img src="./business/sample-company/files/shot.png" alt="Business Brochure">
+                <div class="sample-info">
+                    <h3>Corporate Brochure</h3>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+>>>>>>> c4ac9a8dcafc45d8a5ea1c338db939b1de0cc2a4
 </html>
