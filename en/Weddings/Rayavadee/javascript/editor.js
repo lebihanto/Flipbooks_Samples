@@ -1,1 +1,5 @@
-var pageEditor = {"setting":{}, "fixed_pos":1, "pageAnnos":[[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.468162","y":"0.907371","width":"0.128814","height":"0.008913","pageWidth":"595","pageHeight":"841"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:sales@rayavadee.com","linkTarget":"_blank"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.545249","y":"0.764188","width":"0.199101","height":"0.008913","pageWidth":"595","pageHeight":"841"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:event_service@rayavadee.com","linkTarget":"_blank"}}]]};
+﻿var pageEditor = {
+    "setting": {},
+    "pageAnnos": [[]]
+};
+//"pageAnnos": [[]] 如果这里不是这样的结构会影响到语音助手的设置
